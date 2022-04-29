@@ -1,0 +1,605 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background-color: rgba(91, 25, 97,0.75);
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	color: #000000;
+	width: auto;
+	max-width: 1850px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#wrapper
+{	
+	width: auto;
+}
+
+header
+{
+	position: relative;
+	width: auto;
+	height: 160px;
+	color: #FFFFFF;
+	margin-bottom: 0px;	
+
+	border-radius: 15px 15px 0px 0px;
+	padding: 20px;
+ }
+  
+header img 
+{
+	display: block;
+	width: 800px;
+	height: 150px;	
+	float: left;
+	margin: 15px 35px 15px 35px;
+}
+  
+header h1
+{
+	float: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 32pt;
+    font-weight: bold;
+    margin: 80px 20px 0 0;
+    text-shadow: 4px 3px rgba(0, 0, 0, 0.9);   
+}
+
+header section.header
+{
+	float: right;
+	margin: 140px 10px 0 0;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+header section form
+{
+	margin: -35px 0 0 0;
+}
+
+header section input[type=text]
+{
+	width: 100px;
+	background-color: rgba(255, 255, 255,0.9);
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	border-radius: 15px;
+	padding: 10px;       
+}
+
+header section input[type=text]:focus
+{
+	width: 55%;
+}
+
+nav
+{
+	width: auto;
+	height: 39px;
+	margin-bottom: 0px;
+	background-color: rgba(110, 34, 120, 0.9);
+}
+    
+nav ul
+{
+	width: auto;
+	margin: 0 0 0 10px;
+    list-style-type: none;
+}
+
+nav li
+{	
+	width: auto;
+	display: inline;
+    float: left;
+}
+
+nav li.rejtett_link
+{
+	display: none;
+}
+
+nav a
+{
+	padding: 10px 20px 11px;	
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+    display: block;
+	font-size: 12pt;
+	
+}
+   
+nav .aktiv a
+{
+	background-color: rgba(255, 255, 255,0.9);	  
+	color: rgba(78, 13, 102,0.9);
+	border-radius: 15px 15px 0px 0px;
+}
+
+nav a:hover
+{
+	background-color: rgba(0, 0, 139, 0.9);
+	color: #FFFFFF;
+	border-radius: 15px 15px 0px 0px;
+}
+
+footer
+{
+	clear: left;
+	width: 100%;
+	background-color: rgba(78, 13, 102,0.9);
+	color: #FFFFFF;
+	text-align: center;
+	height: 40px;
+	margin-top: -18px;
+	padding: 20px 0px 0px 0px;	
+	border-radius: 0px 0px 15px 15px;
+}
+	
+article
+{    
+    width: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255,0.9);
+	border-color: rgba(255, 255, 255,0);
+}
+
+section.post
+{
+	margin-bottom: 0px;
+}
+
+section hr
+{
+	width: 95%;
+	border-top: 2px dotted rgba(78, 13, 102,0.9);
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.post h2
+{
+	background-color: rgba(78, 13, 102,0.9);
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	height: 40px;
+	margin: 10px 10px 0px 10px;
+	padding: 15px 0px 0px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+section.post h3
+{
+	background-color: rgba(78, 13, 102,0.9);
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	height: 40px;
+	margin: 0px 10px 0px 10px;
+	padding: 15px 0px 0px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+section.post h3.kepfeltolt
+{
+	background-color: rgba(78, 13, 102,0.9);
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	height: 40px;
+	margin: 0px;
+	padding: 15px 0px 0px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+section.post p.entry
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	text-align: justify;
+	line-height: 160%;
+}
+
+section.post .kiemelt
+{	
+    font-weight: bold;
+	color: black;
+	font-size: 25px;
+}
+
+section.post p.entry a
+{
+	color: #303030;
+}
+
+section.post p.entry a:hover
+{
+	text-decoration: none;
+}
+        
+section.post ul.entry
+{
+	margin-top: 10px;
+	margin-left: 80px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	text-align: justify;
+	line-height: 160%;        
+}
+
+section.post form
+{
+	background-color: rgba(78, 13, 102,0.75);
+	color: #FFFFFF;
+	font-size: bold;
+	margin: 15px 15px 60px 15px;
+	border-radius: 15px;
+	padding: 30px;
+}
+
+section.post input[type=text], input[type=password]
+{
+	width: 400px;
+	background-color: rgba(255, 255, 255,0.9);
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	border-radius: 15px;
+	padding: 10px;       
+}
+
+section.post input[type=text]:focus, input[type=password]:focus
+{
+	width: 95%;
+}
+
+section.post textarea
+{
+	width: 400px;
+	height: 200px;
+	background-color: rgba(255, 255, 255,0.9);
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	resize: none;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+section.post textarea:focus
+{
+	width: 95%;
+}
+
+input[type=button], input[type=submit], input[type=reset], input[type=file], .custom-file-upload
+{
+	padding: 10px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: rgba(78, 13, 102, 0.75);
+	color: rgba(255, 255, 255, 0.9);
+	border-radius: 15px;
+	border: 2px solid rgba(255, 255, 255, 0.9);
+}
+
+input[type="file"]
+{
+    display: none;
+}
+
+section .kepek_megjelenit
+{
+	width: auto;
+	text-align: center;
+}
+
+section p.data_yes
+{
+	width: auto;
+	height: auto;	
+	display: inline-block;
+	border: 1px solid;
+	text-align: justify;
+	padding: 10px;
+}
+
+section p.data_no
+{	
+	width: auto;
+	height: auto;
+	height: auto;
+	display: inline-block;
+	padding: 10px;
+}
+
+section img.klubkartya
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+section img.hirek
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+section img.kepek
+{
+	width: 150px;
+	float: left;
+	border: 1px solid #000000;
+}
+
+section img.kepek_kicsi
+{
+	width: auto;
+	height: auto;
+	float: left;
+}
+
+.videok
+{
+	text-align: center;
+	margin: 15px;
+}
+
+
+@media all and (max-width: 1280px) {
+body
+{
+	background-color: rgba(78, 13, 102,0.75);
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 14px;
+	color: #000000;
+	width: auto;
+	margin-top: 10px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+	
+header
+{
+	height: auto;
+	width: auto;
+}
+
+header img 
+{
+	float: none;
+	width: 500px;
+	height: 100px;
+	margin: auto;
+}
+
+
+
+header section.header
+{
+	float: none;	
+	text-align: center;
+	margin: 10px 0 auto auto;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+header section form
+{
+	margin: 10px 0 0 0;
+}
+
+nav
+{
+	float: none;
+	width: auto;
+	height: auto;
+	margin: 0px auto;
+	background-color: rgba(78, 13, 102, 0.9);
+}
+    
+nav ul
+{
+	width: auto;
+	height: auto;
+	margin: 0 0 auto auto;
+    list-style-type: none;
+}
+
+nav li
+{	
+	width: auto;
+	height: auto;
+	display: inline;
+    float: none;
+}
+
+nav li.rejtett_link
+{
+	display: none;
+}
+
+nav a
+{
+	padding: 10px 20px 11px;	
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+    display: block;
+	font-size: 14px;
+	font-weight: bold;
+	border-radius: 0px;
+}
+   
+nav .aktiv a
+{
+	background-color: rgba(255, 255, 255,0.9);	  
+	color: #4E0D66;
+	border-radius: 0px;
+}
+
+nav a:hover
+{
+	background-color: #EA8101;
+	color: #FFFFFF;
+	border-radius: 0px;
+}
+
+article
+{
+    width: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255,0.9);
+	border-color: rgba(255, 255, 255,0);
+}
+
+section.post
+{
+	margin-bottom: 0px;
+}
+
+section.post h2
+{
+	background-color: rgba(78, 13, 102,0.9);
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	height: auto;
+	margin: 0px 0px 0px 10px;
+	padding: 15px 0px 15px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+section.post h3
+{
+	background-color: rgba(78, 13, 102,0.9);
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	height: 40px;
+	margin: 0px 0px 0px 10px;
+	padding: 15px 0px 0px 15px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+section.post p.entry
+{
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	text-align: justify;
+	line-height: 160%;
+}
+
+section.post p.entry a
+{
+	color: #303030;
+}
+
+section.post p.entry a:hover
+{
+	text-decoration: none;
+}
+        
+section.post ul.entry
+{
+	margin-top: 10px;
+	margin-left: 80px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	text-align: justify;
+	line-height: 160%;        
+}
+
+section.post form
+{
+	background-color: rgba(78, 13, 102,0.75);
+	color: #FFFFFF;
+	margin: 15px 15px 60px 15px;
+	border-radius: 15px;
+	padding: 30px;        
+}
+
+section.post input[type=text], input[type=password]
+{
+	width: 100px;
+	background-color: rgba(255, 255, 255,0.9);
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	border-radius: 15px;
+	padding: 10px;       
+}
+
+section.post input[type=text]:focus, input[type=password]:focus
+{
+	width: 90%;
+}
+
+section.post textarea
+{
+	width: 100px;
+	height: 50px;
+	background-color: rgba(255, 255, 255,0.9);
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	resize: none;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+section.post textarea:focus
+{
+	width: 90%;
+}
+
+section img.klubkartya
+{
+	width: 200px;
+}
+
+section img.kepek
+{
+	width: 200px;
+	float: left;
+	border: 1px solid #000000;
+}
+
+section img.kepek_kicsi
+{
+	width: auto;
+	height: auto;
+	float: left;
+}
+
+iframe
+{
+	width: 150px;
+	height: auto;
+}
+#slide {
+    width: 120px;
+}
+
+}
